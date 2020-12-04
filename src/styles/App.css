@@ -1,0 +1,90 @@
+#root{
+	position: relative;
+	height: 100%; 
+	/* min-height: 100vh;*/
+}
+
+body {margin: 0}
+
+h1{
+	font-family: 'Roboto', sans-serif;
+	font-size: 3.75rem !important;
+	font-weight: 200 !important;
+}
+
+
+h2{
+	font-family: 'Roboto', sans-serif;
+	font-size: 2.7rem !important;
+	font-weight: 200 !important;
+}
+
+h3{
+	font-family: 'Roboto', sans-serif;
+	font-size: 2.3rem !important;
+	font-weight: 200 !important;
+}
+
+h4{
+	font-family: 'Roboto', sans-serif;
+	font-size: 2rem !important;
+	font-weight: 200 !important;
+}
+
+h5{
+	font-family: 'Roboto', sans-serif;
+	font-size: 1.5rem !important;
+	font-weight: 200 !important;
+	color: #757575;
+}
+
+p{
+	color: #757575;
+	font-size: 22px;
+	font-weight: 200;
+}
+
+small{
+	color: #757575;
+}
+
+.bigMargin{
+	margin-top: 10px;
+}
+
+
+/* Padding for everything but mobile */
+@media screen and (min-width: 768px) {
+	.bigMargin{
+		margin-top: 90px;
+	}
+}
+
+@media screen and (max-width: 768px) {
+
+	h1 {
+		font-size: 2.1rem !important;
+	}
+
+  	h2 {
+  		font-size: 1.7rem !important;
+  	}
+
+  	h3 {
+  		font-size: 1.5rem !important;
+  	}
+  	h4 {
+  		font-size: 1.2rem !important;
+  	}
+  	h5{
+		font-size: 1.2rem !important;
+		color: #757575;
+	}
+  	p {
+  		font-size: 20px;
+  	}
+
+  	small{
+  		font-size: 0.7rem !important;
+  	}
+}

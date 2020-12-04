@@ -1,0 +1,15 @@
+.drawer{
+	width:230px;
+}
+
+.buttonDiv{
+	text-align: center;
+}
+
+.buttonDiv button{
+	width: 300px;
+}
+
+.drawer .MuiSelect-root{
+	width: 150px;
+}

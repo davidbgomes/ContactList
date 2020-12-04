@@ -1,0 +1,99 @@
+[
+    {
+        "Name": "Camila",
+        "Age": 30,
+        "PhoneNumber": 911111111,
+        "CityZone": "San Miguel",
+        "City": "Buenos Aires",
+        "Nationality": "Argentinian",
+        "IsMainContact": false,
+        "PlaceId": "EkBDbmVsLiBDaGFybG9uZSwgU2FuIE1pZ3VlbCwgUHJvdmluY2lhIGRlIEJ1ZW5vcyBBaXJlcywgQXJnZW50aW5hIi4qLAoUChIJv5z9zQ29vJURUjQyTZD203ASFAoSCW_t145_vbyVEVEddts98UGh",
+        "Interests": [
+            "Nightlife",
+            "Camping",
+            "Books"
+        ],
+        "ProfilePicUrl": "https://afmnoco.com/wp-content/uploads/2019/07/74046195_s.jpg",
+        "Images": [
+            "https://afmnoco.com/wp-content/uploads/2019/07/74046195_s.jpg",
+            "https://www.meaforensic.com/wp-content/uploads/2018/08/Professional-Placeholder-feature-female@2x-1.png",
+            "https://hamptoncg.com.au/wp-content/uploads/2020/01/female-placeholder.jpg"
+        ]
+    },
+    {
+        "Name": "Sofia",
+        "Age": 28,
+        "PhoneNumber": 922222222,
+        "CityZone": "Gràcia",
+        "City": "Barcelona",
+        "Nationality": "Spanish",
+        "IsMainContact": true,
+        "PlaceId": "ChIJl0xk6aWipBIRZt-AuSbAGug",
+        "ProfilePicUrl": "https://media.istockphoto.com/vectors/default-avatar-profile-icon-gray-placeholder-photo-vector-id844061224?b=1&k=6&m=844061224&s=612x612&w=0&h=adm3xmgWwC3YTVC2swWz02NDmtZ6vFaIw8a_XBGsOLk=",
+        "Interest": [
+            "Music",
+            "Movies"
+        ],
+        "Images": [
+            "https://media.istockphoto.com/vectors/default-avatar-profile-icon-gray-placeholder-photo-vector-id844061224?b=1&k=6&m=844061224&s=612x612&w=0&h=adm3xmgWwC3YTVC2swWz02NDmtZ6vFaIw8a_XBGsOLk=",
+            "https://www.meaforensic.com/wp-content/uploads/2018/08/Professional-Placeholder-feature-female@2x-1.png",
+            "https://hamptoncg.com.au/wp-content/uploads/2020/01/female-placeholder.jpg"
+        ]
+    },
+    {
+        "Name": "John",
+        "Age": 33,
+        "PhoneNumber": 933333333,
+        "CityZone": "Whitechapel",
+        "City": "London",
+        "Nationality": "English",
+        "IsMainContact": false,
+        "PlaceId": "ChIJE0Aq3UoDdkgRIghR0C6uDiY",
+        "ProfilePicUrl": "https://schooloflanguages.sa.edu.au/wp-content/uploads/2017/11/placeholder-profile-sq.jpg",
+        "Interests": [
+            "Nightlife",
+            "Videogames",
+            "Football"
+        ],
+        "Images": [
+            "https://schooloflanguages.sa.edu.au/wp-content/uploads/2017/11/placeholder-profile-sq.jpg",
+            "https://thumbs.dreamstime.com/b/creative-illustration-default-avatar-profile-placeholder-isolated-background-art-design-grey-photo-blank-template-mockup-144849704.jpg",
+            "https://floodhomesinc.com/wp-content/uploads/2016/12/male-profile-image-placeholder.png"
+        ]
+    },
+    {
+        "Name": "Cristiano",
+        "Age": 35,
+        "PhoneNumber": "912345678",
+        "CityZone": "Borgo Po",
+        "City": "Turineee",
+        "Nationality": "Portuguese",
+        "IsMainContact": true,
+        "PlaceId": "ChIJpY6Rwa9yiEcRy3Q0behFegk",
+        "ProfilePicUrl": "https://static.globalnoticias.pt/storage/DN/2017/original/ng8414697.JPG",
+        "Interests": [
+            "Football"
+        ],
+        "Images": [
+            "https://static.globalnoticias.pt/storage/DN/2017/original/ng8414697.JPG",
+            "https://pbs.twimg.com/media/EGoOJqXVUAAS2Rv.jpg",
+            "https://editorial.uefa.com/resources/0253-0d821d98d14c-d8ed69b62576-1000/cristiano_ronaldo_portugal_.jpeg",
+            "https://static.globalnoticias.pt/oj/image.aspx?brand=OJOGO&type=generate&guid=ab860dd8-7b86-4d22-a367-d01d8f21eab4"
+        ],
+        "UserUID": "E89ocicPLNNeGQDffiIMZDAdACX2",
+        "Views": {
+            "january": 0,
+            "february": 0,
+            "march": 0,
+            "april": 0,
+            "may": 0,
+            "june": 0,
+            "july": 4,
+            "august": 7,
+            "september": 9,
+            "october": 20,
+            "november": 30,
+            "december": 44
+        }
+    }
+]

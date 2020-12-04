@@ -1,0 +1,53 @@
+.TabContent{
+	background-color: rgba(252, 252, 252, 0.5);
+	padding:0 !important;
+}
+
+.TabContent .MuiBox-root{
+	padding: 0 !important;
+}
+
+.AppBar{
+	box-shadow: initial !important;
+}
+
+.dashboardDiv .MuiSelect-root{
+	width: 300px !important;
+}
+
+.availableDaysHours .MuiSelect-root{
+	width: 80px !important;
+}
+
+.availableDaysHours{
+	display: flex;
+}
+
+.availableDaysHours .MuiInputLabel-root{
+	padding: inherit;
+}
+
+.availableDaysHours .MuiInputBase-root{
+	margin-left: 10px;
+	margin-right: 10px;
+	margin-top: 5px;
+}
+
+.subscriptionStatusText{
+	margin-left: auto;
+	margin-top: 5px;
+}
+
+
+@media screen and (max-width: 768px) {
+	.dashboardDiv h2{
+		font-size: 20px !important;
+	}
+
+	.dashboardDiv h4{
+		font-size: 12px !important;
+	}
+	.MuiBox-root{
+		padding:0 !important;
+	}
+}

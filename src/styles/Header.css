@@ -1,0 +1,32 @@
+.nav-style{
+	font-size: 16px;
+}
+
+.navbar-toggler{
+	color: black;
+	border-color: transparent !important;
+}
+
+.brand{
+	width: 140px;
+	height: 40px;
+}
+
+.menuItem{
+	padding: 0.1rem 1rem 0.1rem 1rem !important;
+}
+
+.signIn{
+	display: inline-flex !important;
+}
+
+
+.navbar span{
+	vertical-align: 4px;
+}
+
+.header{
+	padding: 0px !important;
+	padding-left: 0.5rem !important;
+	padding-right: 0.5rem !important;
+}

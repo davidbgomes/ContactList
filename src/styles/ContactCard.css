@@ -1,0 +1,174 @@
+.contactDiv{
+	position:relative;
+	transition: 0.3s;
+	animation: showContactCard 0.5s ease-in-out;
+	height: 380px;
+}
+
+.contactDiv img{
+	height: 380px;
+}
+
+
+.contactDiv:hover{
+	transform: scale3d(1.03,1.03,1.03);
+}
+
+@keyframes showContactCard {
+	0% {
+    	opacity: 0;
+  	}
+  	100% {
+    	opacity: 1;
+  	}
+}
+
+.contactMainCardBody{
+	/*background: rgba(0, 0, 0, 0.1); */
+	padding: 0 !important;
+	overflow: hidden;
+}
+
+.ContactsecondaryCardBody{
+	background: rgba(0, 0, 0, 0.15);
+	padding: 0 !important;
+	overflow: hidden;
+}
+
+.contactMainText{
+	font-size: 30px;
+	font-weight: 300;
+	color: white;
+
+	position:absolute;
+	bottom: 0;
+	background-color: black;
+	background: rgba(0, 0, 0, 0.48	);
+
+	padding-left: 10px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-right: 100%;
+
+	width: max-content;
+
+	margin-bottom: 0;
+}
+
+.ContactsecondaryText{
+	font-size: 22px;
+	font-weight: 300;
+	color: white;
+
+	position:absolute;
+	bottom: 0;
+	background-color: black;
+	background: rgba(0, 0, 0, 0.45);
+
+	padding-left: 10px;
+	padding-top: 10px;
+	padding-bottom: 5px;
+	padding-right: 100%;
+
+	width: max-content;
+
+	margin-bottom: 0;
+
+}
+
+
+.contactMainNumber{
+	font-family: "Times";
+	font-size: 30px;
+	position:absolute;
+	bottom: 0;
+
+	background-color: black;
+	background: rgba(0, 0, 0, 0.3);
+
+	padding: 25px;
+	padding-right: 50px;
+}
+
+
+.ContactsecondaryNumber{
+	font-family: "Times";
+	font-size: 20px;
+	position:absolute;
+	bottom: 0.5;
+
+	background-color: black;
+	background: rgba(0, 0, 0, 0.3);
+
+	padding: 10px;
+}
+
+
+.isAvailableIcon{
+	color: #99FF33;
+	position:absolute;
+	margin: 5px;
+	border-radius: 50%;
+	line-height: 100%;
+	animation: animate 5s linear infinite;
+}
+
+
+@keyframes animate {
+	0%{
+		box-shadow: 0 0 0 0 rgba(8,101,0,.7), 0 0 0 0 rgba(8,101,0,.7);
+	}
+	40%{
+		box-shadow: 0 0 0 30px rgba(8,101,0,0), 0 0 0 0 rgba(8,101,0,.7);
+	}
+	80%{
+		box-shadow: 0 0 0 20px rgba(8,101,0,0), 0 0 0 20px rgba(8,101,0,0);
+	}
+	100%{
+		box-shadow: 0 0 0 0 rgba(8,101,0,0), 0 0 0 20px rgba(8,101,0,0);
+	}
+}
+
+.locationMainText{
+	position: absolute;
+	right:0;
+
+	background-color: black;
+	background: rgba(0, 0, 0, 0.48	);
+
+	padding-left: 10px;
+	padding-top: 2px;
+	padding-bottom: 2px;
+	padding-right: 10px;
+}
+
+.locationSecondaryText{
+	position: absolute;
+	right:0;
+	font-size: 20px;
+
+	background-color: black;
+	background: rgba(0, 0, 0, 0.45);
+
+	padding-left: 10px;
+	padding-top: 1px;
+	padding-bottom: 1px;
+	padding-right: 10px;
+}
+
+@media screen and (max-width: 768px) {
+	.ContactsecondaryText{
+		font-size: 16px;
+		padding-top: 4px;
+		padding-bottom: 4px;
+	}
+
+	.locationSecondaryText{
+		font-size: 14px;
+
+		padding-left: 1px;
+		padding-top: 0px;
+		padding-bottom: 0px;
+		padding-right: 1px;
+	}
+}

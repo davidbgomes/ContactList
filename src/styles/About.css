@@ -1,0 +1,127 @@
+.aboutDiv{
+	padding-bottom: 150px;
+}
+
+.aboutDiv img{
+	opacity: 0.47;
+	filter: blur(1px);
+	mix-blend-mode: all;
+	border-radius: 15px;
+}
+
+
+.aboutDiv a:hover{
+	text-decoration: none !important;
+}
+
+.aboutIcon{
+	color: grey;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.contactUsHere{
+	display: flex !important;
+	margin-left: auto;
+    margin-right: auto;
+}
+
+.aboutInfoGrid{
+	margin-left: auto;
+	margin-right: auto;
+	overflow: hidden;
+}
+
+@media screen and (min-width: 768px) {
+	.aboutGridSecondRow{
+		margin-top: 20px;
+	}
+}
+
+
+@media screen and (min-width:1200px) and (max-width: 1800px) {
+	.aboutDiv img{
+		width: 380px;
+		display: block;
+	    margin-left: auto;
+	    margin-right: auto;
+	}
+}
+
+/*@media (orientation: landscape){
+	.aboutDiv + .footer{
+		margin-bottom: -150px;
+	}
+}*/
+
+.informationCard1{
+	-webkit-animation: slide-in-left 0.4s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+	animation: slide-in-left 0.4s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+
+.informationCard2{
+	-webkit-animation: slide-in-right 0.6s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+	animation: slide-in-right 0.6s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+
+.informationCard3{
+	-webkit-animation: slide-in-left 0.8s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+	animation: slide-in-left 0.8s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+
+.informationCard4{
+	-webkit-animation: slide-in-right 1s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+	animation: slide-in-right 1s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+
+@keyframes slide-in-left {
+  0% {
+    -webkit-transform: translateX(-1000px);
+            transform: translateX(-1000px);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: translateX(0);
+            transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+@keyframes slide-in-right {
+  0% {
+    -webkit-transform: translateX(1000px);
+            transform: translateX(1000px);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: translateX(0);
+            transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+@media screen and (max-width: 768px) {
+	.aboutDiv p{
+		font-size: 14px;
+		color: black;
+	}
+	.informationCard1{
+	-webkit-animation: slide-in-left 0.4s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+	animation: slide-in-left 0.4s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+
+	.informationCard2{
+		-webkit-animation: slide-in-left 0.6s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+		animation: slide-in-left 0.6s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+	}
+
+	.informationCard3{
+		-webkit-animation: slide-in-left 0.8s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+		animation: slide-in-left 0.8s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+	}
+
+	.informationCard4{
+		-webkit-animation: slide-in-left 1s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+		animation: slide-in-left 1s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+	}
+}

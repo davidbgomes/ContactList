@@ -1,0 +1,15 @@
+.privacyPolicyDiv + .footer{
+	margin-bottom: -150px;
+}
+
+.privacyPolicyDiv li{
+	color: #757575;
+	font-size: 22px;
+	font-weight: 200;
+}
+
+@media screen and (max-width: 768px) {
+	.privacyPolicyDiv li{
+  		font-size: 20px;
+  	}
+}

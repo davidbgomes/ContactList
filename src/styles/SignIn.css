@@ -1,0 +1,33 @@
+div > input {
+	width:300px !important;
+}
+
+.MuiOutlinedInput-input:-webkit-autofill{
+	-webkit-box-shadow: 0 0 0 30px white inset !important;
+}
+
+.signInDiv form{
+	display: grid;
+	width: fit-content;
+	margin-left: auto;
+	margin-right: auto;
+	padding-top: 2rem;
+	padding-left: 2rem;
+	padding-right: 2rem;
+	padding-bottom: 3rem;
+}
+
+.signInDiv form button{
+	margin-top: 50px !important;
+}
+
+@media screen and (max-width: 768px) {
+	.signInDiv .MuiFormControl-root{
+		width: 320px;
+	}
+}
+
+/*if keyboard rises the screen due to the keyboard being used, this fixes it*/
+.signInDiv{
+	padding-bottom: 100px;
+}

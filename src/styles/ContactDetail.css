@@ -1,0 +1,207 @@
+@import "~react-image-gallery/styles/css/image-gallery.css";
+
+.contactDetailDiv > img{
+	width: 100%;
+	height: 100px;
+}
+
+.phoneNumber{
+  font-size: 30px;
+}
+
+
+.reactPlayer{
+ 	position: absolute;
+ 	top: 0;
+ 	left: 0;	
+}
+
+.phoneIcon{
+  margin-top: 8px;
+  margin-right: 10px;
+}
+
+
+@media only screen and (min-width: 992px){
+  .specs p{
+  	font-size: 19px;
+  }
+}
+
+
+@media only screen and (min-width: 1600px) {
+	.carousel{
+		height: 1000px;
+	}
+
+	.contactDetailDiv{
+		height: 1000px;
+	}
+
+  .specs p{
+    font-size: 30px;
+  }
+}
+
+.whatsappIcon{
+	color: #00E676;
+  margin-right: 8px;
+}
+
+.detailTitle{
+	display: flex;
+  margin: 0;
+}
+
+.availableNow{
+	margin-top: auto;
+	margin-bottom: 25px;
+	margin-left: 30px;
+	size: 60px;
+	font-size: larger !important;
+}
+
+@media only screen and (max-width: 774px){
+	.availableNow{
+		font-size: medium !important;
+		margin-bottom: 17px;
+		margin-left: 15px;
+	}
+
+  .detailTitle{
+    margin-top: 10px;
+  }
+
+  .phoneNumber{
+    font-size: 21px;
+  }
+}
+
+@media only screen and (max-width: 1223px) and (min-width: 993px){
+  .availableNow{
+    margin-bottom: 20px;
+    margin-left: 5px;
+  }
+}
+
+.play-button {
+  cursor: pointer;
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  margin: auto;
+  height: 60px;
+  width: 100px;
+  background-color: rgba(0, 0, 0, 0.7);
+  border-radius: 5px;
+}
+
+.play-button:hover {
+  background-color: rgba(0, 0, 0, 0.9);
+}
+
+.play-button:after {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 16.5px;
+  left: 40px;
+  margin: 0 auto;
+  border-style: solid;
+  border-width: 12.5px 0 12.5px 20px;
+  border-color: transparent transparent transparent rgba(255, 255, 255, 1);
+}
+
+.close-video::before {
+  content: '✖';
+  cursor: pointer;
+  position: absolute;
+  right: 0;
+  top: 0;
+  font-size: 20px;
+  padding: 20px;
+  z-index: 1;
+  line-height: .7;
+  display: block;
+  color: #fff;
+}
+
+
+.video-wrapper {
+  position: relative;
+  padding: 30% 0; /* 16:9 */
+  height: 0;
+}
+
+.video-wrapper iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.app .image-gallery,
+.app-sandbox {
+  margin: 0 auto;
+  width: 65%;
+  transition: all 1s ease;
+}
+
+@media only screen and (max-width: 768px) {
+
+  .play-button {
+    height: 40px;
+    width: 65px;
+  }
+
+  .play-button:after {
+    top: 11px;
+    left: 27px;
+    border-width: 8.5px 0 8.5px 12px;
+  }
+
+  .close-video::before {
+    font-size: 16px;
+    padding: 15px;
+  }
+
+  .fullscreen .image-gallery-content{
+  	margin-top: 50% !important;
+  }
+}
+
+.image-gallery {
+    width: 100%;
+    height: auto;
+}
+
+.image-gallery-slide img {
+    width: 100%;
+    height: auto;
+    max-height: 80vh;
+    object-fit: cover;
+    overflow: hidden;
+    object-position: center center;
+}
+
+.fullscreen .image-gallery-content{
+    max-height: 100vh;
+    max-width: 1024px;
+    bottom: 0;
+    display: flex;
+}
+
+.detailDiv + .footer{
+  margin-bottom: -150px;
+}
+
+
+@media screen and (max-width: 768px) {
+  .detailDivBackdrop .MuiBackdrop-root{
+    opacity: 1 !important;
+    background-color: white !important;
+  }
+}
