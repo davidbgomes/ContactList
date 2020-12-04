@@ -5,7 +5,7 @@
 This is a little React.js Project I made to show my skills in front-end and back-end.
 It's a Contact List where you manage your contacts from a JSON style database.
 
-###It has Authentication, used firebase for handling that, which can be used with the following credentials:
+### It has Authentication, used firebase for handling that, which can be used with the following credentials:
 Email: contact-list-cris_ronaldo@gmail.com
 Password: ronaldo
 
