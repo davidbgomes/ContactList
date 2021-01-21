@@ -1,6 +1,7 @@
 import firebase from 'firebase/app'
 import 'firebase/auth'
 
+
 const firebaseConfig = {
 	apiKey: "AIzaSyCCPO9DuMaEO-CdPmo7mr4nlUg8HG-eaeg",
     authDomain: "contact-list-bc111.firebaseapp.com",

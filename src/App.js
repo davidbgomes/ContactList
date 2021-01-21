@@ -227,6 +227,9 @@ class App extends React.Component {
 
 	render(){
 
+		console.log("this.state.Models",this.state.Contacts)
+		console.log("this.state.activeFilters",this.state.activeFilters)
+
 	    return(
 	    	<div>
 		    	<Router>
