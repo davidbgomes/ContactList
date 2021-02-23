@@ -1,5 +1,7 @@
 # Contact List
 
+![alt text](https://i.imgur.com/u2JPysL.png)
+
 ## Overview
 
 This is a little React.js Project I made. It's a Contact List where you manage your contacts from a JSON style database.
